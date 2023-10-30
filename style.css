@@ -1,0 +1,41 @@
+/* h1{
+    color: brown;
+} */
+/* LAST RULE */
+/* P{
+    color: blue;
+}
+
+P{
+    color: blueviolet;
+}
+
+P{
+    color: aqua;
+} */
+
+/* SPECIFICITY */
+/* *{
+    color: rgb(47, 134, 255) !important;
+}
+
+P{
+    color: goldenrod;
+} 
+P{
+    color: mediumorchid;
+} */
+
+/* INHERITANCE */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.pagr{
+    background-color: blue;
+    border: inherit;
+    padding: inherit;
+}
